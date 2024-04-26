@@ -97,7 +97,7 @@ function onProductClick(event) {
 if (!productCardEl) return;
 
    //5. add modal window
-  const instance = basicLightbox.create(`
+     const instance = basicLightbox.create(`
     <div class="modal">
       <img class="images"
       src="${event.target.dataset.source}" 
